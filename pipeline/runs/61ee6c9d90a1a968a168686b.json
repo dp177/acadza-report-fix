@@ -1,0 +1,28 @@
+{
+ "questionId": "61ee6c9d90a1a968a168686b",
+ "runId": "ba8c97eedb18",
+ "model_solve": "gemini-3.1-flash-lite",
+ "model_triage": "gemini-3.1-flash-lite",
+ "independent_solve": {
+  "answer": "B",
+  "reasoning": "Peyer's patches are organized lymphoid follicles found in the submucosa of the ileum, which is the distal portion of the small intestine. They play a critical role in the mucosal immune system by monitoring intestinal bacteria and preventing the growth of pathogenic bacteria. Villi are finger-like projections for absorption, rugae are folds in the stomach lining, and choroid plexus is involved in cerebrospinal fluid production.",
+  "confidence": 1.0,
+  "issues": ""
+ },
+ "decisions": [
+  {
+   "reportId": "R022",
+   "verdict": "defect",
+   "repair": "spelling",
+   "edit": {
+    "field": "question",
+    "find": "Choroid plexux",
+    "replace": "Choroid plexus"
+   },
+   "route": "auto_apply",
+   "confidence": 1.0,
+   "evidence": "The option (D) contains a typo: 'plexux' instead of 'plexus'.",
+   "student_reply": "You are absolutely right, that is a typo. I have corrected it to 'plexus' for you. Good catch!"
+  }
+ ]
+}

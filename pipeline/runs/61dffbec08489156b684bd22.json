@@ -1,0 +1,27 @@
+{
+ "questionId": "61dffbec08489156b684bd22",
+ "runId": "3f5428be17ef",
+ "model": "gemini-3.5-flash",
+ "independent_solve": {
+  "answer": "A",
+  "reasoning": "The inner lining of the small intestine is composed of epithelial tissue, specifically simple columnar epithelium. This specialized tissue features microvilli to increase the surface area for absorption and secretion of digestive enzymes and mucus. While connective, nervous, and muscular tissues are present in the deeper layers of the intestinal wall, the innermost lining itself is made of epithelial tissue.",
+  "confidence": 1.0,
+  "issues": "Minor typographical errors in option (A): 'Epithellial tisue' instead of 'Epithelial tissue'."
+ },
+ "decisions": [
+  {
+   "reportId": "R012",
+   "verdict": "defect",
+   "repair": "spelling",
+   "edit": {
+    "field": "question",
+    "find": "Epithellial tisue",
+    "replace": "Epithelial tissue"
+   },
+   "route": "auto_apply",
+   "confidence": 1.0,
+   "evidence": "Option A contains spelling errors ('Epithellial tisue'). Verified and corrected to 'Epithelial tissue'.",
+   "student_reply": "Thank you for pointing this out! We have corrected the spelling mistake in Option A."
+  }
+ ]
+}

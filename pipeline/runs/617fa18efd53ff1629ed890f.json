@@ -1,0 +1,28 @@
+{
+ "questionId": "617fa18efd53ff1629ed890f",
+ "runId": "0a52d7cc269d",
+ "model_solve": "gemini-3.1-flash-lite",
+ "model_triage": "gemini-3.1-flash-lite",
+ "independent_solve": {
+  "answer": "D",
+  "reasoning": "The leaf blade or lamina is the green, expanded part of the leaf that contains veins and veinlets, which provide structural support and facilitate the transport of water and nutrients. The petiole is the stalk that attaches the leaf to the stem, the node is the point of attachment on the stem, and the stipule is a small, leaf-like appendage at the base of the petiole.",
+  "confidence": 1.0,
+  "issues": ""
+ },
+ "decisions": [
+  {
+   "reportId": "R013",
+   "verdict": "defect",
+   "repair": "exam_reference",
+   "edit": {
+    "field": "question",
+    "find": "(NEET 2019) ",
+    "replace": ""
+   },
+   "route": "auto_apply",
+   "confidence": 1.0,
+   "evidence": "The student correctly identified that the exam source tag '(NEET 2019)' is extraneous noise in the question text. Removing it improves clarity.",
+   "student_reply": "You're right, that tag is just metadata from the source exam and doesn't affect the biology. I've removed it to keep the question clean for you."
+  }
+ ]
+}

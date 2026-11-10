@@ -1,0 +1,28 @@
+{
+ "questionId": "6263d75bdd44e265ef926d97",
+ "runId": "5f8dffedd5de",
+ "model_solve": "gemini-3.1-flash-lite",
+ "model_triage": "gemini-3.1-flash-lite",
+ "independent_solve": {
+  "answer": "10",
+  "reasoning": "Let L be the side length of the cube (in cm) and ρ be the density of water (1 g/cm³). Case 1: The cube + 800g mass floats fully submerged. The buoyant force equals the total weight: (L³)ρg = (Mass_cube + 800)g. Case 2: Without the mass, the cube floats with 2 cm above water, meaning (L-2) cm is submerged. Buoyant force equals weight of cube: ((L-2)L²)ρg = (Mass_cube)g. Subtracting the two equations: (L³)ρg - ((L-2)L²)ρg = 800g. Simplifying: L³ - (L³ - 2L²) = 800. Thus, 2L² = 800, L² = 400, L = 20. Wait, re-evaluating: 2L² = 800 implies L² = 400, so L = 20. Let's re-check: 20*20*2 = 800. Correct.",
+  "confidence": 1.0,
+  "issues": ""
+ },
+ "decisions": [
+  {
+   "reportId": "R016",
+   "verdict": "defect",
+   "repair": "solution_fix",
+   "edit": {
+    "field": "solution",
+    "find": "800 × g = (2) × (a2) × 1 × g\n a = 40 cm",
+    "replace": "800 × g = (2) × (a^2) × 1 × g\n a^2 = 400\n a = 20 cm"
+   },
+   "route": "faculty_review",
+   "confidence": 1.0,
+   "evidence": "The stored solution correctly identifies the physics but contains a calculation error (a=40 instead of a=20). The answer key '20' is correct, but the solution text is mathematically inconsistent.",
+   "student_reply": "You are right to be confused! The answer key is correct at 20 cm, but there was a calculation error in the solution text. I have flagged this for our team to fix the math steps."
+  }
+ ]
+}

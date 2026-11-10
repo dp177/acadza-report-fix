@@ -1,0 +1,1 @@
+{"answer": "C", "reasoning": "The velocity of the centre of mass (Vcm) is given by the formula Vcm = (m1*v1 + m2*v2) / (m1 + m2). Here, m1 = 10 kg, v1 = 14 m/s, m2 = 4 kg, and v2 = 0 m/s (since the lighter block is initially at rest). Substituting the values: Vcm = (10 * 14 + 4 * 0) / (10 + 4) = 140 / 14 = 10 m/s.", "confidence": 1.0, "issues": ""}

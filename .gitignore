@@ -1,0 +1,9 @@
+data/
+preview/
+pipeline/cases.json
+pipeline/run.log
+node_modules/
+dist/
+.env
+*.log
+__pycache__/

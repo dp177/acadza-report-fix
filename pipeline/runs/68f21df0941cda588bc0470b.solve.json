@@ -1,0 +1,1 @@
+{"model": "gemini-3.1-flash-lite", "solve": {"answer": "A", "reasoning": "The relationship between kinetic energy (K) and momentum (p) is given by K = p^2 / (2m), which implies p = sqrt(2mK). If the new kinetic energy K' = 4K, then the new momentum p' = sqrt(2m * 4K) = 2 * sqrt(2mK) = 2p. Thus, the new momentum becomes twice its initial value.", "confidence": 1.0, "issues": ""}}

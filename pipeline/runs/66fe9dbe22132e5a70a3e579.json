@@ -1,0 +1,24 @@
+{
+ "questionId": "66fe9dbe22132e5a70a3e579",
+ "runId": "0e2c522bb429",
+ "model_solve": "gemini-3.1-flash-lite",
+ "model_triage": "gemini-3.1-flash-lite",
+ "independent_solve": {
+  "answer": "D",
+  "reasoning": "Parathormone increases blood calcium while Calcitonin decreases it (antagonistic). Insulin decreases blood glucose while Glucagon increases it (antagonistic). Aldosterone increases sodium reabsorption while Atrial Natriuretic Factor (ANF) promotes sodium excretion (antagonistic). Relaxin primarily relaxes pelvic ligaments during childbirth, and Inhibin inhibits FSH secretion; they have distinct, non-opposing physiological roles, making them the correct choice for non-antagonistic hormones.",
+  "confidence": 1.0,
+  "issues": ""
+ },
+ "decisions": [
+  {
+   "reportId": "R035",
+   "verdict": "no_error",
+   "repair": null,
+   "edit": null,
+   "route": "no_change",
+   "confidence": 1.0,
+   "evidence": "Relaxin and Inhibin have distinct physiological functions and are not considered antagonistic. The other pairs (A, B, C) represent well-documented antagonistic hormonal relationships.",
+   "student_reply": "Actually, Relaxin and Inhibin do not have opposing physiological effects, which is why they are the correct choice. The other pairs listed are classic examples of hormones that work in opposition to maintain homeostasis."
+  }
+ ]
+}

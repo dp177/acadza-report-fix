@@ -1,0 +1,24 @@
+{
+ "questionId": "6264197209f4fd65f58f5707",
+ "runId": "c57f30a4213b",
+ "model_solve": "gemini-3.1-flash-lite",
+ "model_triage": "gemini-3.1-flash-lite",
+ "independent_solve": {
+  "answer": "C",
+  "reasoning": "Golden rice is a genetically modified variety of rice (Oryza sativa) engineered to produce beta-carotene, a precursor of provitamin A. Consumption of this rice helps address vitamin A deficiency, which is a leading cause of childhood blindness in developing countries.",
+  "confidence": 1.0,
+  "issues": ""
+ },
+ "decisions": [
+  {
+   "reportId": "R040",
+   "verdict": "no_error",
+   "repair": null,
+   "edit": null,
+   "route": "no_change",
+   "confidence": 1.0,
+   "evidence": "The question correctly identifies Golden rice as the biofortified crop engineered to produce beta-carotene, which the body converts to vitamin A to prevent blindness. The stored answer and solution are scientifically accurate.",
+   "student_reply": "Golden rice is indeed the correct answer here. It was specifically engineered with beta-carotene to combat vitamin A deficiency, which is a major cause of preventable blindness in many parts of the world."
+  }
+ ]
+}

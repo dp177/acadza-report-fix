@@ -1,0 +1,1 @@
+{"model": "gemini-3.1-flash-lite", "solve": {"answer": "C", "reasoning": "The fraction of substance remaining after disintegration of 7/8th of the original mass is 1 - 7/8 = 1/8. Since 1/8 = (1/2)^3, the time taken corresponds to 3 half-lives. Given the half-life (T_1/2) is 60 days, the total time t = 3 * T_1/2 = 3 * 60 = 180 days.", "confidence": 1.0, "issues": ""}}
